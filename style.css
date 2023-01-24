@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-nav{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.header i{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.left-cont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.text h1{
+    transform: rotate(270deg);
+    font-size: 60px;   
+}
+.in-text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 120px;
+    justify-content: center; 
+    
+}
+.icons{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-in{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 4px solid black;  
+    font-size: 50px;
+    
+}
+.icon-in i{
+    margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.spn1{
+    margin-left: 20px;
+}
+.spn2{
+    margin-right: 20px;
+}
+/* --------------------------------main content-------------------------------------- */
+.main-cont{
+    width: 75%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYN6votqKUYb3AX4XKh0VfYt9wKsu76VdpfymLQFDJXD2Q-iw-M7I0DckSVAsJkg0pXtE&usqp=CAU');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main-hdr{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    font-size: 22px;
+    color: white;
+}
+.hdr1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    /* background-color: aqua; */
+    padding-left: 20px;
+}
+.hdr2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hdr-icons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home{
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    opacity: 0.9;
+}
+.card1 h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid rgb(237, 160, 17);
+}
+.card2{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color:rgb(80, 79, 79);
+    padding: 25px;
+    opacity: 0.9;
+}
+.card2 h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid rgb(237, 160, 17);
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(246, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card3{
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-bottom: 240px;
+    margin-left: 300px;
+}
+.card3 img{
+    width: 200px;
+    height: 190px;
+}
+.card3 p{
+    padding-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.main-ftr{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.ftr2 svg{
+    font-size: 10px;
+}
+.ftr1{
+    margin-left: 35px;
+    flex-direction: column;
+    
+}
+.ftr2{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
